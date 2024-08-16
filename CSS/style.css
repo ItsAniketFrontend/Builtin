@@ -1,0 +1,413 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+nav {
+  position: fixed !important;
+  width: 100%;
+  top: 0px;
+  background: rgba(255, 255, 255, 0.08) !important;
+  box-shadow: 0px 9px 13.9px 0px rgba(0, 0, 0, 0.25) !important;
+  -webkit-backdrop-filter: blur(11.3999996185px) !important;
+          backdrop-filter: blur(11.3999996185px) !important;
+}
+nav .nav-link {
+  color: #fff !important;
+  font-family: Poppins !important;
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+nav button {
+  border-radius: 8.108px;
+  background: #91653B;
+  padding: 10px 40px;
+  border: none;
+}
+nav button a {
+  color: #FFF;
+  font-family: "Futura Md BT";
+  font-size: 16.216px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  letter-spacing: 0.649px;
+}
+nav .navbar-toggler {
+  padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+  font-size: var(--bs-navbar-toggler-font-size);
+  line-height: 1;
+  color: var(--bs-navbar-color);
+  background-color: transparent;
+  border: none;
+  border-radius: var(--bs-navbar-toggler-border-radius);
+  transition: var(--bs-navbar-toggler-transition);
+}
+nav .navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-image: url(../Images/burger.png) !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.home-banner {
+  background: url(../Images/home-banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 140px;
+}
+.home-banner h1 {
+  color: #FFF;
+  text-shadow: -6px 9px 3.9px rgba(0, 0, 0, 0.31);
+  font-family: Gloock;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 75px;
+  /* 187.5% */
+  margin-bottom: 0px;
+  padding-bottom: 17px;
+}
+.home-banner h1 span {
+  color: #FFF;
+  font-family: Gloock;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 75px;
+}
+.home-banner p {
+  color: #FFF;
+  text-shadow: -6px 9px 3.9px rgba(0, 0, 0, 0.31);
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135%;
+  /* 27px */
+}
+.home-banner button {
+  border-radius: 10px;
+  background: #91653B;
+  padding: 13px 45px;
+  border: none;
+  display: flex;
+  align-items: center;
+  transition: all 0.42s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.home-banner button:hover {
+  background-color: #D9D9D9;
+}
+.home-banner button a {
+  color: #FFF;
+  font-family: "Futura Md BT";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  line-height: normal;
+  letter-spacing: 0.8px;
+}
+.home-banner button:hover a {
+  color: #935F2F;
+}
+.home-banner button:before {
+  background-color: #fff;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  margin-right: 10px;
+  transition: all 0.42s cubic-bezier(0.25, 0.8, 0.25, 1);
+  width: 10px;
+}
+.home-banner button:hover:before {
+  background-color: #935F2F;
+  width: 3.5rem;
+}
+
+.home-innovative {
+  padding: 56px 0px;
+}
+.home-innovative h2 {
+  color: #071635;
+  text-align: center;
+  font-family: Gloock;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  padding-bottom: 80px;
+  margin-bottom: 0px;
+}
+.home-innovative .nav-pills .nav-link.active,
+.home-innovative .nav-pills .show > .nav-link {
+  border-radius: 10px;
+  background: #1B1B1B;
+  padding: 15px 20px;
+  color: #FFF;
+  font-family: Roboto !important;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.home-innovative .nav-link {
+  color: #1B1B1B;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 15px 20px;
+  border-radius: 10px;
+  background: #D9D9D9;
+}
+
+.home-about {
+  background: url(../Images/home-about-bg.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -250px;
+}
+.home-about .box {
+  padding-top: 200px;
+}
+.home-about .box h6 {
+  color: #FFF;
+  font-family: Gloock;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 47px;
+  /* 134.286% */
+  text-transform: capitalize;
+}
+.home-about .box p {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  /* 156.25% */
+  text-transform: capitalize;
+}
+.home-about .box h3 {
+  color: #FFF;
+  font-family: Gloock;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  /* 125% */
+  text-transform: capitalize;
+}
+.home-about .box li {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  /* 156.25% */
+  text-transform: capitalize;
+}
+.home-about .box h5 {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  /* 156.25% */
+  text-transform: capitalize;
+}
+.home-about .box button {
+  border-radius: 10px;
+  background: #935F2F;
+  box-shadow: -5px 8px 4.7px 0px rgba(0, 0, 0, 0.25);
+  padding: 15px 30px;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: none;
+  margin-top: 50px;
+}
+.home-about .box button a {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.home-usp {
+  background: url(../Images/home-usp-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0px;
+}
+.home-usp h5 {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  /* 0px */
+}
+.home-usp p {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 10px;
+}
+.home-usp hr {
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.home-what-we-do {
+  margin: 100px 0px;
+}
+.home-what-we-do img {
+  border-bottom-left-radius: 50%;
+}
+.home-what-we-do .box {
+  background: #D9D9D9;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+.home-what-we-do .box h2 {
+  color: #1B1B1B;
+  font-family: Gloock;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.home-what-we-do .box p {
+  color: #525252;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.home-what-we-do .box h6 {
+  color: #525252;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.home-what-we-do .box button {
+  border-radius: 10px;
+  background: #071635;
+  padding: 13px 24px;
+  transition: all 0.42s cubic-bezier(0.25, 0.8, 0.25, 1);
+  border: none;
+  display: flex;
+  align-items: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 30px;
+}
+.home-what-we-do .box button:hover {
+  background-color: #91653B;
+}
+.home-what-we-do .box button a {
+  color: #FFF;
+  font-family: "Futura Md BT";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-decoration: none;
+}
+.home-what-we-do .box button:before {
+  background-color: #fff;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  margin-right: 10px;
+  transition: all 0.42s cubic-bezier(0.25, 0.8, 0.25, 1);
+  width: 10px;
+}
+.home-what-we-do .box button:hover:before {
+  background-color: #fff;
+  width: 3.5rem;
+}
+
+.home-services {
+  padding-bottom: 100px;
+}
+.home-services h2 {
+  color: #1B1B1B;
+  font-family: Gloock;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 0px;
+  padding-bottom: 50px;
+}
+.home-services button {
+  border-radius: 10px;
+  background: #071635;
+  padding: 13px 24px;
+  transition: all 0.42s cubic-bezier(0.25, 0.8, 0.25, 1);
+  border: none;
+  display: flex;
+  align-items: center;
+}
+.home-services button:hover {
+  background-color: #91653B;
+}
+.home-services button a {
+  color: #FFF;
+  font-family: "Futura Md BT";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-decoration: none;
+}
+.home-services button:before {
+  background-color: #fff;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  margin-right: 10px;
+  transition: all 0.42s cubic-bezier(0.25, 0.8, 0.25, 1);
+  width: 10px;
+}
+.home-services button:hover:before {
+  background-color: #fff;
+  width: 3.5rem;
+}/*# sourceMappingURL=style.css.map */
