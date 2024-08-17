@@ -12,6 +12,7 @@ nav {
   box-shadow: 0px 9px 13.9px 0px rgba(0, 0, 0, 0.25) !important;
   -webkit-backdrop-filter: blur(11.3999996185px) !important;
           backdrop-filter: blur(11.3999996185px) !important;
+  z-index: 7000;
 }
 nav .nav-link {
   color: #fff !important;
@@ -410,4 +411,240 @@ nav .navbar-toggler-icon {
 .home-services button:hover:before {
   background-color: #fff;
   width: 3.5rem;
+}
+
+.design {
+  background: url(../Images/design-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 436px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.design h2 {
+  color: #1B1B1B;
+  font-family: Gloock;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  /* 125% */
+  text-transform: capitalize;
+  margin-bottom: 0px;
+  padding-bottom: 14px;
+}
+.design p {
+  color: #525252;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  /* 142.857% */
+}
+.design button {
+  border-radius: 10px;
+  background: #071635;
+  padding: 13px 24px;
+  transition: all 0.42s cubic-bezier(0.25, 0.8, 0.25, 1);
+  border: none;
+  display: flex;
+  align-items: center;
+}
+.design button:hover {
+  background-color: #91653B;
+}
+.design button a {
+  color: #FFF;
+  font-family: "Futura Md BT";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-decoration: none;
+}
+.design button:before {
+  background-color: #fff;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  margin-right: 10px;
+  transition: all 0.42s cubic-bezier(0.25, 0.8, 0.25, 1);
+  width: 10px;
+}
+.design button:hover:before {
+  background-color: #fff;
+  width: 3.5rem;
+}
+
+.home-project {
+  padding-top: 100px;
+  padding-bottom: 130px;
+}
+.home-project h2 {
+  color: #1B1B1B;
+  font-family: Gloock;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  /* 125% */
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 0px;
+  padding-bottom: 60px;
+}
+.home-project h3 {
+  color: #071635;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.home-project p {
+  color: #525252;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  /* 142.857% */
+}
+.home-project .btne {
+  border-radius: 10px;
+  background: #071635;
+  padding: 13px 24px;
+  transition: all 0.42s cubic-bezier(0.25, 0.8, 0.25, 1);
+  border: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 38px;
+}
+.home-project .btne:hover {
+  background-color: #91653B;
+}
+.home-project .btne a {
+  color: #FFF;
+  font-family: "Futura Md BT";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-decoration: none;
+}
+.home-project .btne:before {
+  background-color: #fff;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  margin-right: 10px;
+  transition: all 0.42s cubic-bezier(0.25, 0.8, 0.25, 1);
+  width: 10px;
+}
+.home-project .btne:hover:before {
+  background-color: #fff;
+  width: 3.5rem;
+}
+
+.why-us {
+  padding-bottom: 100px;
+}
+.why-us h2 {
+  color: #1B1B1B;
+  font-family: Gloock;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 55px;
+  /* 137.5% */
+  text-transform: capitalize;
+  margin: 0px;
+}
+.why-us p {
+  color: #525252;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px;
+}
+.why-us h5 {
+  color: #1B1B1B;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+.why-us h6 {
+  color: #525252;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+.foot {
+  background: #141414;
+  padding: 65px 0px;
+}
+.foot p {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 14.812px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  /* 20.737px */
+  margin-bottom: 0px;
+  opacity: 0.6;
+  padding-bottom: 4px;
+}
+.foot h6 {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 10.58px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  /* 14.812px */
+  letter-spacing: 0.423px;
+  text-transform: uppercase;
+  opacity: 0.4;
+  margin-bottom: 0px;
+  padding-bottom: 25px;
+}
+.foot hr {
+  width: 47.61px;
+  height: 1.058px;
+  border: 1px solid #fff;
+}
+
+.sub-foot {
+  background: #141414;
+  padding: 13px 0px;
+}
+.sub-foot hr {
+  border: 1px solid #fff;
+  width: 100%;
+}
+.sub-foot p {
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  /* 14px */
+  margin-bottom: 0px;
 }/*# sourceMappingURL=style.css.map */
